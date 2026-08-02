@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>REBOND — mesure honnête du rebond</title>
+<meta name="description" content="Journal de recherche en trading systématique. Résultats en paper trading, historique vérifiable par chaîne d'empreintes.">
+<style>
+:root{--navy:#0B1426;--slate:#1E293B;--em:#10B981;--txt:#F8FAFC;--mut:#94A3B8;--al:#EF4444}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--navy);color:var(--txt);font:16px/1.6 Inter,system-ui,sans-serif;
+padding:24px 16px;max-width:900px;margin:0 auto}
+header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+.mk{width:38px;height:38px}
+h1{font-size:26px;letter-spacing:-.5px;font-weight:800}
+.tag{color:var(--mut);font-size:14px;margin-bottom:32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:28px}
+.kpi{background:var(--slate);border-radius:12px;padding:16px}
+.kpi .l{font-size:11px;letter-spacing:1.5px;color:var(--mut);text-transform:uppercase}
+.kpi .v{font-size:28px;font-weight:800;margin-top:4px;font-variant-numeric:tabular-nums}
+section{background:var(--slate);border-radius:12px;padding:20px;margin-bottom:20px}
+h2{font-size:13px;letter-spacing:2px;color:var(--em);text-transform:uppercase;margin-bottom:14px}
+.courbe{width:100%;height:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td,th{padding:8px 6px;border-bottom:1px solid #17233a;text-align:left}
+th{font-size:11px;letter-spacing:1px;color:var(--mut);text-transform:uppercase}
+.g{color:var(--em)} .p{color:var(--mut)}
+.h{font-family:ui-monospace,monospace;font-size:11px;color:var(--mut)}
+.jauge{height:10px;background:#0d1a2e;border-radius:5px;overflow:hidden;margin:10px 0}
+.jauge>i{display:block;height:100%;background:var(--em);width:0.0%}
+.note{font-size:13px;color:var(--mut);margin-top:10px}
+footer{color:var(--mut);font-size:12px;text-align:center;padding:28px 0;line-height:1.8}
+.vide{color:var(--mut);text-align:center;padding:30px 0}
+</style></head><body>
+<header>
+<svg class="mk" viewBox="0 0 100 100"><path d="M8,14 C19,45 27,70 39,70 C55,70 70,38 92,8"
+fill="none" stroke="#10B981" stroke-width="7" stroke-linecap="round"/>
+<circle cx="39" cy="70" r="5" fill="#10B981"/></svg>
+<h1>REBOND</h1></header>
+<p class="tag">Mesure honnête du rebond — journal de recherche public · @rebond</p>
+
+<div class="grid">
+<div class="kpi"><div class="l">Opérations closes</div><div class="v">0</div></div>
+<div class="kpi"><div class="l">Espérance</div><div class="v" style="color:#EF4444">+0.000R</div></div>
+<div class="kpi"><div class="l">Cumul</div><div class="v">+0.0R</div></div>
+<div class="kpi"><div class="l">Pire repli</div><div class="v">0.0R</div></div>
+</div>
+
+<section><h2>Courbe cumulée, en multiples de risque</h2><p class="vide">La courbe apparaîtra dès la première opération clôturée.</p>
+<p class="note">Chaque point est une opération clôturée. Les positions en cours sont exclues —
+c'est la manière la plus répandue d'embellir une performance.</p></section>
+
+<section><h2>Avancement vers le seuil de passage au réel</h2>
+<div class="jauge"><i></i></div>
+<p class="note"><b>0 / 167</b> opérations. Il en faut 167 pour que la borne
+basse de l'intervalle de confiance dépasse zéro. Tant que ce seuil n'est pas franchi,
+le système reste en paper trading — sans exception.</p>
+<p class="note">Intervalle actuel : +0.000R à +0.000R.</p></section>
+
+
+
+<section><h2>Historique vérifiable</h2>
+<p class="note">Chaque ligne porte une empreinte qui intègre celle de la précédente.
+Modifier un résultat passé invalide toute la suite de la chaîne : l'historique ne peut pas
+être réécrit après coup.</p>
+<p class="note">Empreinte de fin de chaîne : <span class="h"></span></p>
+<table><tr><th>Date</th><th>Titre</th><th>Générateur</th><th>Résultat</th><th>Empreinte</th></tr>
+</table></section>
+
+<footer>Généré le 2026-08-02 22:49 UTC · Données embarquées, aucun suivi, aucun script tiers.<br>
+Résultats en <b>paper trading</b>. Aucune position réelle n'a été prise.<br>
+Ce site n'est pas un conseil en investissement.</footer>
+<script type="application/json" id="donnees">{"genere": "2026-08-02 22:49 UTC", "n": 0, "esperance": 0.0, "ic_bas": 0.0, "ic_haut": 0.0, "taux": 0.0, "cumul": 0.0, "drawdown": 0.0, "courbe": [], "par_source": {}, "archive": [], "seuil": {"n_requis": 167, "n_atteint": 0, "progression": 0.0, "borne_positive": false}, "empreinte_chaine": ""}</script>
+</body></html>

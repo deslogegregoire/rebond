@@ -1,0 +1,20 @@
+{
+ "genere": "2026-08-02 22:49 UTC",
+ "n": 0,
+ "esperance": 0.0,
+ "ic_bas": 0.0,
+ "ic_haut": 0.0,
+ "taux": 0.0,
+ "cumul": 0.0,
+ "drawdown": 0.0,
+ "courbe": [],
+ "par_source": {},
+ "archive": [],
+ "seuil": {
+  "n_requis": 167,
+  "n_atteint": 0,
+  "progression": 0.0,
+  "borne_positive": false
+ },
+ "empreinte_chaine": ""
+}
