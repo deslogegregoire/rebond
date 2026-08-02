@@ -25,7 +25,7 @@ th{font-size:11px;letter-spacing:1px;color:var(--mut);text-transform:uppercase}
 .g{color:var(--em)} .p{color:var(--mut)}
 .h{font-family:ui-monospace,monospace;font-size:11px;color:var(--mut)}
 .jauge{height:10px;background:#0d1a2e;border-radius:5px;overflow:hidden;margin:10px 0}
-.jauge>i{display:block;height:100%;background:var(--em);width:0.0%}
+.jauge>i{display:block;height:100%;background:var(--em);width:1.2%}
 .note{font-size:13px;color:var(--mut);margin-top:10px}
 footer{color:var(--mut);font-size:12px;text-align:center;padding:28px 0;line-height:1.8}
 .vide{color:var(--mut);text-align:center;padding:30px 0}
@@ -38,35 +38,35 @@ fill="none" stroke="#10B981" stroke-width="7" stroke-linecap="round"/>
 <p class="tag">Mesure honnête du rebond — journal de recherche public · @rebond</p>
 
 <div class="grid">
-<div class="kpi"><div class="l">Opérations closes</div><div class="v">0</div></div>
-<div class="kpi"><div class="l">Espérance</div><div class="v" style="color:#EF4444">+0.000R</div></div>
-<div class="kpi"><div class="l">Cumul</div><div class="v">+0.0R</div></div>
-<div class="kpi"><div class="l">Pire repli</div><div class="v">0.0R</div></div>
+<div class="kpi"><div class="l">Opérations closes</div><div class="v">2</div></div>
+<div class="kpi"><div class="l">Espérance</div><div class="v" style="color:#EF4444">-1.000R</div></div>
+<div class="kpi"><div class="l">Cumul</div><div class="v">-2.0R</div></div>
+<div class="kpi"><div class="l">Pire repli</div><div class="v">-2.0R</div></div>
 </div>
 
-<section><h2>Courbe cumulée, en multiples de risque</h2><p class="vide">La courbe apparaîtra dès la première opération clôturée.</p>
+<section><h2>Courbe cumulée, en multiples de risque</h2><svg viewBox="0 0 800 220" class="courbe"><line x1="0" y1="110.0" x2="800" y2="110.0" stroke="#1E293B"/><polyline points="0.0,158.0 800.0,206.0" fill="none" stroke="#EF4444" stroke-width="2.5"/></svg>
 <p class="note">Chaque point est une opération clôturée. Les positions en cours sont exclues —
 c'est la manière la plus répandue d'embellir une performance.</p></section>
 
 <section><h2>Avancement vers le seuil de passage au réel</h2>
 <div class="jauge"><i></i></div>
-<p class="note"><b>0 / 167</b> opérations. Il en faut 167 pour que la borne
+<p class="note"><b>2 / 167</b> opérations. Il en faut 167 pour que la borne
 basse de l'intervalle de confiance dépasse zéro. Tant que ce seuil n'est pas franchi,
 le système reste en paper trading — sans exception.</p>
-<p class="note">Intervalle actuel : +0.000R à +0.000R.</p></section>
+<p class="note">Intervalle actuel : -1.000R à -1.000R.</p></section>
 
-
+<section><h2>Par générateur</h2><table><tr><th>Générateur</th><th>n</th><th>Espérance</th></tr><tr><td>sniper</td><td>1</td><td class="p">-1.000R</td></tr><tr><td>momentum</td><td>1</td><td class="p">-1.000R</td></tr></table></section>
 
 <section><h2>Historique vérifiable</h2>
 <p class="note">Chaque ligne porte une empreinte qui intègre celle de la précédente.
 Modifier un résultat passé invalide toute la suite de la chaîne : l'historique ne peut pas
 être réécrit après coup.</p>
-<p class="note">Empreinte de fin de chaîne : <span class="h"></span></p>
+<p class="note">Empreinte de fin de chaîne : <span class="h">c70450fafa1914e8</span></p>
 <table><tr><th>Date</th><th>Titre</th><th>Générateur</th><th>Résultat</th><th>Empreinte</th></tr>
-</table></section>
+<tr><td>2026-08-01</td><td><b>ITGR</b></td><td>momentum</td><td class="p">-1.00R</td><td class="h">c70450fafa</td></tr><tr><td>2026-07-31</td><td><b>RTO</b></td><td>sniper</td><td class="p">-1.00R</td><td class="h">689ba62fb1</td></tr></table></section>
 
-<footer>Généré le 2026-08-02 22:49 UTC · Données embarquées, aucun suivi, aucun script tiers.<br>
+<footer>Généré le 2026-08-02 22:53 UTC · Données embarquées, aucun suivi, aucun script tiers.<br>
 Résultats en <b>paper trading</b>. Aucune position réelle n'a été prise.<br>
 Ce site n'est pas un conseil en investissement.</footer>
-<script type="application/json" id="donnees">{"genere": "2026-08-02 22:49 UTC", "n": 0, "esperance": 0.0, "ic_bas": 0.0, "ic_haut": 0.0, "taux": 0.0, "cumul": 0.0, "drawdown": 0.0, "courbe": [], "par_source": {}, "archive": [], "seuil": {"n_requis": 167, "n_atteint": 0, "progression": 0.0, "borne_positive": false}, "empreinte_chaine": ""}</script>
+<script type="application/json" id="donnees">{"genere": "2026-08-02 22:53 UTC", "n": 2, "esperance": -1.0, "ic_bas": -1.0, "ic_haut": -1.0, "taux": 0.0, "cumul": -2.0, "drawdown": -2.0, "courbe": [{"d": "2026-07-31", "c": -1.0, "t": "RTO", "r": -1.0}, {"d": "2026-08-01", "c": -2.0, "t": "ITGR", "r": -1.0}], "par_source": {"sniper": {"n": 1, "esp": -1.0}, "momentum": {"n": 1, "esp": -1.0}}, "archive": [{"ts": 1785485751, "date": "2026-07-31 08:15 UTC", "ticker": "RTO", "source": "sniper", "entree": 24.25, "stop": 23.52, "objectif": 25.7, "qte": 41, "issue": "stop", "r": -1.0, "precedent": "", "empreinte": "689ba62fb167181b"}, {"ts": 1785623014, "date": "2026-08-01 22:23 UTC", "ticker": "ITGR", "source": "momentum", "entree": 121.21, "stop": 111.51, "objectif": 140.6, "qte": 5, "issue": "stop", "r": -1.0, "precedent": "689ba62fb167", "empreinte": "c70450fafa1914e8"}], "seuil": {"n_requis": 167, "n_atteint": 2, "progression": 0.012, "borne_positive": false}, "empreinte_chaine": "c70450fafa1914e8"}</script>
 </body></html>
