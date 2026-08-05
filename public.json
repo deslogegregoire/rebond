@@ -1,11 +1,11 @@
 {
- "genere": "2026-08-05 18:08 UTC",
- "n": 7,
- "esperance": 0.9839,
- "ic_bas": -0.127,
- "ic_haut": 2.0947,
- "taux": 71.4,
- "cumul": 6.887,
+ "genere": "2026-08-05 18:13 UTC",
+ "n": 8,
+ "esperance": 0.9393,
+ "ic_bas": -0.0268,
+ "ic_haut": 1.9053,
+ "taux": 75.0,
+ "cumul": 7.514,
  "drawdown": -2.0,
  "courbe": [
   {
@@ -49,6 +49,12 @@
    "c": 6.887,
    "t": "BE",
    "r": 0.948
+  },
+  {
+   "d": "2026-08-05",
+   "c": 7.514,
+   "t": "GWRE",
+   "r": 0.627
   }
  ],
  "par_source": {
@@ -65,8 +71,8 @@
    "esp": 2.867
   },
   "manuel": {
-   "n": 2,
-   "esp": 1.01
+   "n": 3,
+   "esp": 0.882
   }
  },
  "archive": [
@@ -167,13 +173,27 @@
    "r": 0.948,
    "precedent": "699b963a3aa2",
    "empreinte": "80af8c72eb736730"
+  },
+  {
+   "ts": 1785953503,
+   "date": "2026-08-05 18:11 UTC",
+   "ticker": "GWRE",
+   "source": "manuel",
+   "entree": 151.31,
+   "stop": 139.2052,
+   "objectif": 175.5196,
+   "qte": 6.0,
+   "issue": "manuel",
+   "r": 0.627,
+   "precedent": "80af8c72eb73",
+   "empreinte": "a13366428d7454aa"
   }
  ],
  "seuil": {
   "n_requis": 167,
-  "n_atteint": 7,
-  "progression": 0.042,
+  "n_atteint": 8,
+  "progression": 0.048,
   "borne_positive": false
  },
- "empreinte_chaine": "80af8c72eb736730"
+ "empreinte_chaine": "a13366428d7454aa"
 }
