@@ -1,11 +1,11 @@
 {
- "genere": "2026-08-12 08:08 UTC",
- "n": 8,
- "esperance": 0.9393,
- "ic_bas": -0.0268,
- "ic_haut": 1.9053,
- "taux": 75.0,
- "cumul": 7.514,
+ "genere": "2026-08-12 08:25 UTC",
+ "n": 11,
+ "esperance": 0.9565,
+ "ic_bas": 0.2614,
+ "ic_haut": 1.6516,
+ "taux": 81.8,
+ "cumul": 10.521,
  "drawdown": -2.0,
  "courbe": [
   {
@@ -55,6 +55,24 @@
    "c": 7.514,
    "t": "GWRE",
    "r": 0.627
+  },
+  {
+   "d": "2026-08-12",
+   "c": 8.828,
+   "t": "ZS",
+   "r": 1.314
+  },
+  {
+   "d": "2026-08-12",
+   "c": 9.478,
+   "t": "ZETA",
+   "r": 0.65
+  },
+  {
+   "d": "2026-08-12",
+   "c": 10.521,
+   "t": "EGO",
+   "r": 1.043
   }
  ],
  "par_source": {
@@ -71,8 +89,8 @@
    "esp": 2.867
   },
   "manuel": {
-   "n": 3,
-   "esp": 0.882
+   "n": 6,
+   "esp": 0.942
   }
  },
  "archive": [
@@ -187,13 +205,55 @@
    "r": 0.627,
    "precedent": "80af8c72eb73",
    "empreinte": "a13366428d7454aa"
+  },
+  {
+   "ts": 1786522093,
+   "date": "2026-08-12 08:08 UTC",
+   "ticker": "ZS",
+   "source": "manuel",
+   "entree": 161.07,
+   "stop": 148.1844,
+   "objectif": 186.8412,
+   "qte": 3.0,
+   "issue": "manuel",
+   "r": 1.314,
+   "precedent": "a13366428d74",
+   "empreinte": "877338292d5bde9b"
+  },
+  {
+   "ts": 1786522094,
+   "date": "2026-08-12 08:08 UTC",
+   "ticker": "ZETA",
+   "source": "manuel",
+   "entree": 27.31,
+   "stop": 25.1252,
+   "objectif": 31.6796,
+   "qte": 22.0,
+   "issue": "manuel",
+   "r": 0.65,
+   "precedent": "877338292d5b",
+   "empreinte": "2edcac7457ceaea9"
+  },
+  {
+   "ts": 1786522094,
+   "date": "2026-08-12 08:08 UTC",
+   "ticker": "EGO",
+   "source": "manuel",
+   "entree": 36.06,
+   "stop": 33.1752,
+   "objectif": 41.8296,
+   "qte": 16.0,
+   "issue": "manuel",
+   "r": 1.043,
+   "precedent": "2edcac7457ce",
+   "empreinte": "1eaf1ee5fbf056ec"
   }
  ],
  "seuil": {
   "n_requis": 167,
-  "n_atteint": 8,
-  "progression": 0.048,
+  "n_atteint": 11,
+  "progression": 0.066,
   "borne_positive": false
  },
- "empreinte_chaine": "a13366428d7454aa"
+ "empreinte_chaine": "1eaf1ee5fbf056ec"
 }
