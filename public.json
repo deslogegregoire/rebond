@@ -1,10 +1,10 @@
 {
- "genere": "2026-08-17 21:36 UTC",
- "n": 11,
- "esperance": 0.9565,
- "ic_bas": 0.2614,
- "ic_haut": 1.6516,
- "taux": 81.8,
+ "genere": "2026-08-17 21:57 UTC",
+ "n": 12,
+ "esperance": 0.8768,
+ "ic_bas": 0.2233,
+ "ic_haut": 1.5302,
+ "taux": 75.0,
  "cumul": 10.521,
  "drawdown": -2.0,
  "courbe": [
@@ -73,6 +73,12 @@
    "c": 10.521,
    "t": "EGO",
    "r": 1.043
+  },
+  {
+   "d": "2026-08-17",
+   "c": 10.521,
+   "t": "DLB",
+   "r": 0.0
   }
  ],
  "par_source": {
@@ -89,8 +95,8 @@
    "esp": 2.867
   },
   "manuel": {
-   "n": 6,
-   "esp": 0.942
+   "n": 7,
+   "esp": 0.808
   }
  },
  "archive": [
@@ -247,13 +253,27 @@
    "r": 1.043,
    "precedent": "2edcac7457ce",
    "empreinte": "1eaf1ee5fbf056ec"
+  },
+  {
+   "ts": 1787003712,
+   "date": "2026-08-17 21:55 UTC",
+   "ticker": "DLB",
+   "source": "manuel",
+   "entree": 58.81,
+   "stop": 54.1052,
+   "objectif": 68.2196,
+   "qte": 10.0,
+   "issue": "manuel",
+   "r": 0.0,
+   "precedent": "1eaf1ee5fbf0",
+   "empreinte": "bafc4e27c5632702"
   }
  ],
  "seuil": {
   "n_requis": 167,
-  "n_atteint": 11,
-  "progression": 0.066,
+  "n_atteint": 12,
+  "progression": 0.072,
   "borne_positive": false
  },
- "empreinte_chaine": "1eaf1ee5fbf056ec"
+ "empreinte_chaine": "bafc4e27c5632702"
 }
