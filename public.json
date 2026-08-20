@@ -1,11 +1,11 @@
 {
- "genere": "2026-08-19 19:17 UTC",
- "n": 12,
- "esperance": 0.8768,
- "ic_bas": 0.2233,
- "ic_haut": 1.5302,
- "taux": 75.0,
- "cumul": 10.521,
+ "genere": "2026-08-20 07:32 UTC",
+ "n": 13,
+ "esperance": 0.824,
+ "ic_bas": 0.2141,
+ "ic_haut": 1.4339,
+ "taux": 76.9,
+ "cumul": 10.712,
  "drawdown": -2.0,
  "courbe": [
   {
@@ -79,6 +79,12 @@
    "c": 10.521,
    "t": "DLB",
    "r": 0.0
+  },
+  {
+   "d": "2026-08-20",
+   "c": 10.712,
+   "t": "CORT",
+   "r": 0.191
   }
  ],
  "par_source": {
@@ -95,8 +101,8 @@
    "esp": 2.867
   },
   "manuel": {
-   "n": 7,
-   "esp": 0.808
+   "n": 8,
+   "esp": 0.731
   }
  },
  "archive": [
@@ -267,13 +273,27 @@
    "r": 0.0,
    "precedent": "1eaf1ee5fbf0",
    "empreinte": "bafc4e27c5632702"
+  },
+  {
+   "ts": 1787203210,
+   "date": "2026-08-20 05:20 UTC",
+   "ticker": "CORT",
+   "source": "manuel",
+   "entree": 118.32,
+   "stop": 108.8544,
+   "objectif": 137.2512,
+   "qte": 5.0,
+   "issue": "manuel",
+   "r": 0.191,
+   "precedent": "bafc4e27c563",
+   "empreinte": "c91d3fec36d39db6"
   }
  ],
  "seuil": {
   "n_requis": 167,
-  "n_atteint": 12,
-  "progression": 0.072,
+  "n_atteint": 13,
+  "progression": 0.078,
   "borne_positive": false
  },
- "empreinte_chaine": "bafc4e27c5632702"
+ "empreinte_chaine": "c91d3fec36d39db6"
 }
